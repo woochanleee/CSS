@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* (링크를 가진 a요소에 적용)방문전 링크 상태 */
+        a:link{
+            color: black;
+        }
+        /* 방문 후 링크 상태 */
+        a:visited{
+            color:red;
+        }
+        /* (링크 외에 모든 요소에 적용가능)hover 가상 클래스, 마우스 오버 했을 때 상태(위에 올려 놓을때) */
+        a:hover{
+            color: yellow;
+        }
+        /* (링크 외에 모든 요소에 적용가능)active 가상클래스, 마우스를 클릭했을때 상태 */
+        a:active{
+            color: green;
+        }
+        a:focus{
+            color:white;
+        }
+        input:focus{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://opentutorials.org">방문함</a>
+    <a href="https:a.a">방문안함</a>
+    <input type="text">
+</body>
+</html>
